@@ -20,4 +20,24 @@ public class LikesInfo {
     }
 
     private boolean userLikes;
+
+    // version 2
+    private boolean canLike;
+    private boolean canPublish;
+
+    public boolean isCanLike() {
+        return canLike;
+    }
+
+    public void setCanLike(boolean canLike) {
+        this.canLike = canLike;
+    }
+
+    public boolean isCanPublish() {
+        return canPublish;
+    }
+
+    public void setCanPublish(boolean canPublish) {
+        this.canPublish = canPublish;
+    }
 }
